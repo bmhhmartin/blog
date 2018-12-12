@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none !important;
+}
+img{
+    border: 0px;
+}
+h1,h2,h3,h4,h5,h6,ol,ul,p,address{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@font-face{
+	font-family: proxinova_light;
+	src: url(../fonts/font/ProximaNova-Light.otf);
+}
+@font-face{
+	font-family: proxinova_semibold;
+	src: url(../fonts/font/proximanova-semibold.otf);
+}
+@font-face{
+	font-family: century;
+	src: url(../fonts/font/CENTURY.TTF);
+}
+@font-face{
+	font-family: opensans_light;
+	src: url(../fonts/font/OpenSans-Light.ttf);
+}
+body{
+	font-family:Helvetica;
+}
+
+/*-------------main css start now-----------------*/
+header img{
+	padding-top: 43px;
+}
+header p{
+	font-family: proxinova_light;
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+}
+header h1{
+	font-family: century;
+	padding: 80px 0px 77px;
+	color: #000;
+	font-size: 30px;
+	text-align: center;
+}
+header .top li i{
+	padding: 0px 23px;
+	color: #27282d;
+	font-size: 12px;
+}
+header .top li{
+	float: left;
+	padding: 22px 0px 66px;
+	letter-spacing: 2px;
+}
+header .top li a{
+	color: #27282d;
+	font-family: opensans_light;
+}
+header .top li a .fa-circle{
+	font-size: 5px;
+}
+header .lan{
+	right: 15px;
+	position: absolute;
+	margin-top: 21px;
+	border: none;
+	font-family: opensans_light;
+	color: #27282d;
+}
+header .lan{
+	background: url(../images/arrow.png);
+	background-repeat: no-repeat;
+	background-position: 100% 58%;
+	cursor: pointer;
+	appearance: none;
+	-webkit-appearance: caret;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    -o-appearance:none;
+    
+}
+header .lan option{
+	 padding: 0px 10px;
+}
+
+header .lan option:hover{
+	 padding: 0px 100px;
+	 background-color:red;
+	 background:red;
+}
+header form{
+	margin-top: 83px;
+	position: absolute;
+	right: 0px;
+}
+header .search{
+	padding: 5px 10px;
+	border-radius: 0px;
+	border: none;
+	box-shadow:none;
+}
+.form-control::-moz-placeholder{
+	font-family: opensans_light;
+	font-size: 12px;
+}
+header .fa-search{
+	position: absolute;
+	right: 30px;
+	top: 10px;
+	color: #464d4b;
+}
+/*header part ends*/
+#menu .navbar-default{
+	background: transparent;
+	border: transparent;
+}
+#menu .navbar-default .navbar-nav > li .act{
+	color: #000;
+}
+#menu .navbar-default .navbar-nav > li > a{
+	text-transform: uppercase;
+	color: #929292;
+	font-family: proxinova_light;
+	font-size: 15px;
+	letter-spacing: 1px;
+}
+#menu .navbar-default .navbar-nav{
+	display: flex;
+	justify-content: space-between;
+	float: none;
+}
+#menu .navbar-default .navbar-nav > li > a:hover{
+	color: #cb0000 !important;
+}
+#menu{
+	border-bottom: 3px solid #cb0000;
+	padding-bottom: 20px;
+}
+#menu .navbar-collapse.collapse{
+	margin-left: -15px;
+	margin-right: -15px;
+}
+/*menu part ends*/
+#post h2{
+	padding: 43px 0px 19px;
+	color: #000;
+	font-family: century;
+}
+#post h2:hover{
+	color: #cb0000;
+}
+#post p a{
+	color: #929292;
+	font-size: 16px;
+	font-family: proxinova_light;
+}
+#post p i{
+	padding-right: 7px;
+}
+#post p span{
+	color: #cb0000;
+	text-decoration: underline;
+}
+#post p span:hover{
+	color: #000;
+	text-decoration: underline;
+}
+#post .fa-comments-o{
+	padding-right: 5px;
+	color: #000;
+}
+#post .comment span{
+	color: #929292;
+}
+#post .comment:hover i{
+	color: #cb0000;
+}
+#post .news img{
+	margin-top: 20px;
+}
+#post .news h4{
+	padding: 36px 0px 34px;
+	font-family: proxinova_light;
+	font-size: 20px;
+	color: #2a2a29;
+}
+#post .news h5{
+	font-family: proxinova_light;
+	font-size: 21px;
+	color: #2a2a29;
+	padding-bottom: 30px;
+}
+#post .news p{
+	font-family: proxinova_light;
+	font-size: 21px;
+	color: #2a2a29;
+	padding-bottom: 53px;
+	line-height: 23px;
+}
+#post .news .tag{
+	font-size: 18px;
+	color: #000;
+	font-family: proxinova_semibold;
+	font-weight: 400;
+	margin-right: 25px;
+	position: absolute;
+	left: 0;
+}
+#post .news ul{
+	margin-right: 20px;
+}
+#post .news ul li{
+	float: left;
+}
+#post .news ul li a{
+	padding: 12px 13px 11px;
+	background: #16100d;
+	margin-right: 9px;
+	color: #fff;
+	font-size: 12px;
+	font-family: proxinova_semibold;
+}
+#post .news ul li a:hover{
+	background: #cb0000;
+	-webkit-transition: all linear .3s;
+	-o-transition: all linear .3s;
+	transition: all linear .3s;
+}
+/*post part ends*/
+#post .fanpage .share h6{
+	font-family: proxinova_semibold;
+	font-size: 22px;
+	color: #000;
+	text-transform: uppercase; margin: -23px 0px 29px;
+}
+#post .submenu .email{
+	background: #cb0000;
+	height: 138px;
+	margin-top: 50px;
+}
+#post .submenu .email img {
+	position: absolute;
+	top: 10%;
+	left: 11%;
+}
+#post .submenu .email h4{
+	padding-left: 30%;
+	color: #fff;
+	font-family: proxinova_semibold;
+	font-size: 14px;
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+#post .submenu .email h5{
+	padding-bottom: 20px;
+	font-family: proxinova_semibold;
+	color: #fff;
+	padding-left: 30%;
+	padding-bottom: 6px;
+	font-size: 14px;
+}
+#post .submenu .email .field{
+	margin-left: 30%;
+	width: 145px;
+	padding: 5px;
+	margin-right: 8px;
+}
+#post .submenu .email .send{
+	padding: 7px 10px 7px 11px;
+	background: #f5c86e;
+	color: #be8003;
+}
+#post .submenu .email .send:hover{
+	background: #fff;
+	color: #cb0000;
+	transition: all linear .4s;
+}
+#post .submenu .latest h4{
+	font-family: proxinova_semibold;
+	font-size: 22px;
+	color: #000;
+	padding: 48px 0px 0px 6px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#post .submenu .latest .step img{
+	position: absolute;
+	margin-left: 10px;
+	margin-top: 32px;
+}
+#post .submenu .latest .step h5{
+	font-size: 12px;
+	color: #cb0000;
+	font-family: proxinova_light;
+	padding-top: 32px;
+	padding-bottom: 30px;
+	margin-left: -5px;
+}
+#post .submenu .latest .step p{
+	font-size: 12px;
+	color: #2a2a29;
+	font-family: proxinova_light;
+	margin-top: -24px;
+	margin-bottom: 32px;
+	margin-left: -5px;
+	line-height: 14px;
+}
+#post .submenu .latest .step p:after{
+	position: absolute;
+	content: '';
+	height: 1px;
+	width: 70%;
+	background: #879999;
+	left: -82px;
+	top: 100%;
+}
+#post .submenu .latest .step h6{
+	font-size: 12px;
+	color: #2a2a29;
+	font-family: proxinova_light;
+	margin-top: -24px;
+	margin-bottom: 32px;
+	margin-left: -5px;
+}
+#post aside .fa-youtube:hover, .fa-twitter:hover, .fa-facebook:hover,{
+	background: #cb0000;
+}
+#post .submenu .latest .step:hover{
+	background: #f1f2f1;
+}
+.fa-youtube{
+	width: 36px;
+	height: 36px;
+	background: #000;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.fa-twitter{
+	width: 36px;
+	height: 36px;
+	background: #000;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.fa-facebook{
+	width: 36px;
+	height: 36px;
+	background: #000;
+	color: #fff;
+	line-height: 36px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+/*post part ends*/
+footer{
+	background: #313436;
+	margin-top: 50px;
+}
+footer img{
+	padding: 36px 0px 47px;
+}
+footer ul{
+	padding-top: 52px;
+}
+footer ul li a{
+	font-size: 14px;
+	font-family: proxinova_light;
+	color: #999999;
+}
+footer ul li{
+	padding-bottom: 8px;
+}
+footer ul li a:hover{
+	color: #fff;
+}
+footer p{
+	padding: 69px 0px 42px;
+	color: #fff;
+}
+/*footer part ends*/
+.col-sm-6.col-xs-12.comment a {
+	float: right;
+	font-size: 12px;
+}
+.col-sm-3.col-xs-12.comment a {
+	float: right;
+	margin-right: 98px;
+}
+.more-newss {
+	display: none;
+	background: #313436;
+	padding: 15px 0;
+	text-align: center;
+	color: #fff;
+	border-radius: 7px;
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-size: 18px;
+}
+.m-block{
+	display:none;
+}
+.fa-twitter:hover, .fa-youtube:hover, .fa-facebook:hover{background: #cb0000;}
+.for-mobile{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+/* for select box */

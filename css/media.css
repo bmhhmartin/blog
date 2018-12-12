@@ -1,0 +1,505 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+	header .top li i{
+		padding: 0px 15px;
+	}
+	#menu .navbar-default .navbar-nav > li > a{
+		font-size: 14px;
+	}
+	#post .news ul li a{
+		font-size: 11px;
+	}
+	#post .news h4, #post .news h5, #post .news p{
+		font-size: 15px;
+		line-height:25px;
+	}
+	#post .submenu .latest .step h5, #post .submenu .latest .step p{
+		font-size: 12px;
+		padding-left: 15px;
+	}
+	#post .submenu .email{
+		margin-top: 42px;
+	}
+	#post .submenu .email img{
+		width: 40px;
+		height: 40px;
+		top: 9%;
+		left: 8%;
+	}
+	#post .submenu .email h4{
+		padding-left: 22%;
+		font-size: 12px;
+	}
+	#post .submenu .email h5{
+		padding-left: 22%;
+		font-size: 12px;
+	}
+	#post .submenu .email .field{
+		margin-left: 22%;
+		width: 45%;
+	}
+	#post .submenu .email .send{
+		padding: 8px 10px;
+		cursor: pointer;
+	}
+	#post .submenu .latest .step p::after{
+		left: -27%;
+	}
+	#post .fanpage .share h6{
+		padding-top: 50px;
+	}
+	#post .submenu .latest .step h6{
+		margin-left: 10px;
+	}
+	#post h2 {
+		font-size: 18px;
+	}
+	
+}
+ /*-------------Medium layout ends-----------------*/
+@media(min-width:768px) and (max-width:991px){
+	header img{
+		padding-top: 24px;
+	}
+	header p{
+		font-size: 10px;
+	}
+	header .top li i{
+		padding: 0px 8px;
+	}
+	header h1{
+		font-family: century;
+		padding: 56px 0px;
+		font-size: 29px;
+	}
+	header form{
+		margin-top: 75px;
+		right: 0;
+	}
+	header .search{
+		padding: 2px 5px;
+	}
+	header .fa-search{
+		right: 13%;
+		top: 9px;
+	}
+	/*header part ends*/
+	#menu .navbar-default .navbar-nav > li > a{
+		font-size: 11px;
+	}
+	#menu{
+		padding-bottom: 5px;
+	}
+	#post h2{
+		font-size: 22px;
+	}
+	#post .news .tag{
+		font-size: 15px;
+		margin-right: 15px;
+		top: 4px;
+	}
+	#post .news ul{
+		margin-right: 20px;
+		margin-bottom: 20px;
+	}
+	#post .news h4, #post .news h5, #post .news p{
+		font-size: 15px;
+		line-height: 20px;
+	}
+	#post .news ul li a{
+		padding: 6px 9px 6px;
+		margin-right: 1px;
+		font-size: 9px;
+	}
+	#post .news ul li a:hover{
+		background: #cb0000;
+		transition: all linear .3s;
+	}
+	#post .news .sub{
+		font-size: 16px; 
+	}
+	/*submenu start*/
+	#post .submenu .email img{
+		width: 40px;
+		height: 40px;
+		top: 14%;
+		left: 7%;
+	}
+	#post .submenu .email h4{
+		padding-left: 22%;
+		font-size: 10px;
+		padding-top: 17px;
+	}
+	#post .submenu .email h5{
+		padding-left: 22%;
+		font-size: 10px;
+	}
+	#post .submenu .email .field{
+		margin-left: 22%;
+		width: 45%;
+	}
+	#post .submenu .email .send{
+		padding: 8px 10px;
+		cursor: pointer;
+	}
+	#post .submenu .latest h4{
+		font-size: 22px;
+		padding: 15px 0px;
+	}
+	#post .submenu .latest .step img{
+		position: absolute;
+		/* margin-top: 4px; */
+		top: -20px;
+	}
+	#post .submenu .latest .step h5{
+		font-size: 8.6px;
+		padding-left: 18px;
+		margin-top: -20px;
+	}
+	#post .submenu .latest .step p{
+		font-size: 8.6px;
+		padding-left: 18px;
+		/* line-height: 10px; */
+	}
+	.share {
+		margin-top: 35%;
+	}
+	#post .submenu .latest .step img {
+		margin-left: 5px;
+	}
+	.step {
+		min-height: 72px;
+	}
+	#post .submenu .latest .step p::after {
+		position: absolute;
+		content: '';
+		height: 1px;
+		width: 70%;
+		background: #879999;
+		left: -48px;
+		top: 100%;
+	}
+	#post .submenu .latest .step h6 {
+		font-size: 10px;
+		margin-top: -24px;
+		margin-bottom: 32px;
+		margin-left: 19px;
+
+	}
+	#post .fanpage .share h6{
+		font-family: proxinova_semibold;
+		font-size: 22px;
+		color: #000;
+		text-transform: uppercase; margin: -43% 0% 10%;
+	}
+	/*submenu part ends*/
+	footer img{
+		padding: 20px 0px 0px;
+		display: inline-block;
+	}
+	footer ul{
+		padding-top: 20px;
+	}
+	footer ul li a{
+		font-size: 12px;
+	}
+	footer ul li{
+		padding-bottom: 8px;
+	}
+	footer p{
+		padding: 30px 0px;
+		text-align: center;
+	}
+	/*footer part ends*/
+	#post .submenu .email {
+		height: 105px;
+	}
+	
+
+}
+
+
+
+ /*-------------Tablet part ends-----------------*/   
+
+@media(min-width:320px) and (max-width:767px){
+	header img {
+		padding-top: 10px;
+	}
+	header .logo{
+		display: inline-block;
+	}
+	header p{
+		font-size: 10px;
+		text-align: center;
+	}
+	header h1{
+		padding: 20px 0px;
+		font-size: 25px;
+	}
+	header form{
+		margin-top: 75px;
+		right: 0;
+	}
+	header .search{
+		padding: 2px 5px;
+	}
+	header .fa-search{
+		right: 29px;
+		top: 11px;
+	}
+	header .sear{
+		width: 100%;
+	}
+	
+	header form{
+		width: 100%;
+	}
+	header .search{
+		padding: 5px 10px;
+	}
+	header .lan{
+		right: 20px;
+	}
+	header form{
+		text-align: center;
+	}
+	/*header part ends*/
+	#menu .navbar-collapse.collapse{
+		margin-left: 0px;
+	}
+	.navbar-header{
+		margin-top: 1px;
+	}
+	.navbar-toggle{
+		margin-right: 0px;
+	}
+	#menu{
+		padding-bottom: 1px;
+	}
+	#menu .navbar-default .navbar-nav > li{
+		margin-bottom: 0px;
+		padding: 5px 0px;
+	}
+	.navbar-default .navbar-toggle .icon-bar{
+		background: #cb0000;
+	}
+	.navbar-default .navbar-toggle{
+		border-color: #cb0000;
+	}
+	/*menu part ends*/
+	#post .news img{
+		margin-top: 40px !important;
+	}
+	#post .news h4{
+		font-size: 16px;
+	}
+	#post .news h5{
+		font-size: 16px;
+	}
+	#post .news p{
+		font-size: 16px;
+	}
+	#post .news .tag{
+	    font-size: 15px;
+		margin-right: 15px;
+		top: 4px;
+		margin-left: 0%;
+		margin-bottom: 15px;
+	}
+	#post .news ul li{
+		margin-bottom: 3px;
+	}
+	#post .news ul {
+		margin-top: 0;
+		width: 82%;
+		margin-right: 0;
+		margin-bottom: 0;
+		margin-left: 0px;
+		text-align: right;
+		margin: 0 auto;
+	}
+	#post .news h4, #post .news h5, #post .news p{
+		font-size: 16px !important;
+		line-height: 24px;
+	}
+	
+	#post .news ul li a{
+		padding: 6px 9px 6px;
+		margin-right: 1px;
+		font-size: 9px;
+	}
+	#post .news ul li a:hover{
+		background: #cb0000;
+		transition: all linear .3s;
+	}
+	.more-newss:hover{
+		background: #cb0000;
+		transition: all linear .3s;
+		color:#fff;
+	}
+	#post .news p{
+		padding-bottom: 20px;
+	}
+	/*submenu part start*/
+	#post .submenu .email h4{
+		padding-left: 30%;
+	}
+	#post .submenu .email h5{
+		padding-left: 30%;
+		letter-spacing: 1px;
+	}
+	#post .submenu .email .field{
+		margin-left: 30%;
+	}
+	#post .submenu .email .send{
+		padding: 8px 10px;
+		cursor: pointer;
+	}
+	#post .submenu .latest h4{
+		font-size: 22px;
+	}
+	#post .submenu .latest .step img{
+		position: absolute;
+	}
+	#post .submenu .latest .step h5{
+		font-size: 13px;
+		padding-left: 81px;
+	}
+	#post .submenu .latest .step p{
+		font-size: 13px;
+		padding-left: 81px;
+	}
+	#post .submenu .latest .step p:after{
+		position: absolute;
+		content: '';
+		height: 1px;
+		width: 70%;
+		background: #879999;
+		left: -48px;
+		top: 120%;
+	}
+	/*post part ends*/
+	footer img{
+		padding: 20px 0px 0px;
+		display: inline-block;
+		margin: auto;
+	}
+	footer ul{
+		padding-top: 20px;
+		text-align: center;
+	}
+	footer ul li a{
+		font-size: 16px;
+	}
+	footer ul li{
+		padding-bottom: 8px;
+		text-align: left;
+	}
+	footer p{
+		padding: 30px 0px;
+		text-align: left;
+	}
+	/*footer part ends*/
+	
+	#post h2 {
+		font-size: 18px;
+		padding-bottom: 10px;
+	}
+	#post .news h4 {
+		padding: 20px 0px 20px;
+	}
+	.col-sm-6.col-xs-12.comment {
+		display: none;
+	}
+	#post p a {
+		font-size: 15px;
+	}
+	.m-block{
+		display:block !important;
+	}
+	.submenu {
+		display: none;
+	}
+	#post .submenu .email h4 {
+		padding-top: 15px;
+		padding-bottom: 0;
+		letter-spacing: 2px;
+	}
+	.fanpage {
+		display: none;
+	}
+	.col-sm-3.col-xs-12.comment {
+		display: none;
+	}
+	.ters {
+		margin-bottom: 20px;
+	}
+    
+	.dblock {
+	   display: none;
+	} 
+	#menu {
+	   display: none; 
+	 } 
+	
+	/* mobile menu */
+	.menu-mobile ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	.menu-mobile ul li {
+		display: inline-block;
+		margin-left: 10px;
+	}
+	.menu-mobile ul li a {
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 14px;
+		font-family: proxinova_light;
+		}
+	.btn-primarycst.dropdown-toggle {
+		border: none;
+		background: none;
+		font-size: 14px;
+		text-transform: uppercase;
+		color: #fff;
+		font-family: proxinova_light;
+	}
+	.mobile-header {
+		background: #cb0000;
+		padding: 19px 0 16px;
+	}
+	.dropdown-menu {
+		background: #7e4c4c;
+		top: 37px;
+		right: -7px;
+		left: auto;
+		border-radius: 0;
+		min-width:100px;
+	}
+	.mb-menu{
+		justify-content: space-between;
+		display: flex;
+	}
+	
+	.logom img {
+		width: 226px;
+		height: 28px;
+	}
+	.logom {
+		text-align: center;
+		margin-top: 30px;
+	}
+	.for-mobile {
+		display: block;
+	}
+	.more-newss {
+		display: block;
+	}
+	#post .submenu .email .field {
+		width: 130px;
+	}
+	
+}
